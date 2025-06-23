@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Menu, X, Search } from 'lucide-react'; // Shield is removed as we are using an image
+import { Menu, X, Search } from 'lucide-react';
+import logos from '../images/logos.png';
 
 // IMPORTANT: Make sure logo.jpg is in your public/images/ folder.
 // This path references the file from the root of your public directory.
-const logoPath = '/src/images/logos.png';
 const LogoPlaceholder = "https://placehold.co/100x32/1E3A2B/FFFFFF?text=LOGO"; // Fallback placeholder
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo Section (Left side as per image) */}
           <div className="flex items-center space-x-3">
             <img 
-              src={logoPath} 
+              src={logos} 
               alt="Engaging Security Logo" 
               className="h-10 w-60"
               onError={(e) => { e.target.onerror = null; e.target.src = LogoPlaceholder; }} 
