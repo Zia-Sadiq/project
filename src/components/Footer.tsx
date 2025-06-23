@@ -95,7 +95,7 @@ const Footer = () => {
                 <p>Address: ENGAGING SECURITY LTD 3rd Floor, 88-90 Paul Street, London, England EC2A 4NE</p>
                 <p>Phone: 020 8087 1952</p>
                 <p>Email: Contactus@Engagingsecurity.Com</p>
-                <p>Developed By: Zia Sadiq, (Contact: +923130857627)</p>
+                <p>Developed By: Zia Sadiq, (Contact: +923136857527)</p>
               </div>
             </div>
           </div>
